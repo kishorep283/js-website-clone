@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+    <div class="cart-container">
+        <h1>My Cart</h1>
+        <div class="cart-items"></div>
+        <div class="final">
+            <p class="fin">Total Itmes :<span class="total-items">0</span></p>
+            <p class="fin">Total Price :<span class="total-price">0</span></p>
+            <h2>Check-Out</h2>
+            <div class="check">
+                <div>
+                    <input type="radio" id="credit-card" name="payment-method" value="Credit Card">
+                    <label for="credit-card">Credit Card</label>
+                </div>
+                <div>
+                    <input type="radio" id="debit-card" name="payment-method" value="Debit Card">
+                    <label for="debit-card">Debit Card</label>
+                </div>
+                <div>
+                    <input type="radio" id="upi" name="payment-method" value="UPI">
+                    <label for="upi">UPI</label>
+                </div>
+                <div>
+                    <input type="radio" id="cash-on-delivery" name="payment-method" value="Cash on Delivery">
+                    <label for="cash-on-delivery">Cash on Delivery</label>
+                </div>
+                <div class="chk-btn">
+                    <button id="check-btn">Check-Out</button>
+                </div>
+            </div>
+            <a href="index.html"><button id="home">HOME</button></a>
+        </div>
+    </div>
+    <script src="./cart.js" defer></script>
+    
+</body>
+</html>

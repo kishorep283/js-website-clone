@@ -1,0 +1,84 @@
+h1{
+    padding-left: 20%;
+}
+.sub-box{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    padding:15px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+    width:50vw;
+    margin-left: 20%;
+    padding-left: 3%;
+}
+.sub-box .small{
+    display:flex;
+}
+.sub-box .small{
+    display: flex;
+    gap:20px;
+}
+h2{
+    padding-left: 20%;
+}
+.deals{
+    padding:20px;
+    margin-left: 20%;
+    margin-right: 25%;
+    border: 1px solid black;
+}
+.picks{
+    padding:20px;
+    height:200px;
+    margin-left: 20%;
+    margin-right:25%;
+    border:1px solid black;
+}
+.items h2{
+    padding-left: 20%;
+}
+.items .individual{
+    border-bottom:1px solid black;
+    border-bottom-style: groove;
+    margin-left:20%;
+    margin-right:25%;
+}
+.individual{
+    display: flex;
+    padding-bottom: 10px;
+
+}
+.items .individual .indi-right img{
+    width:80%;
+    align-self: center;
+}
+.items .individual .indi-right button{
+    width:30%;
+    align-self: center;
+    padding: 10px;
+}
+.indi-right{
+    display: flex;
+    /* margin-left: 10%; */
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+.indi-left{
+    /* border:1px solid blue; */
+    padding-left: 4%;
+}
+.indi-left .h3{
+    font-weight:bold;
+    font-size: 1.5rem;
+}
+.small .ratings{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.picks{
+    display:flex;
+    gap:20px;
+
+}

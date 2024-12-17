@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+  <nav class="header">
+    <div class="logo">
+      <h1>Swift</h1>
+      <img src="./main_icon-removebg-preview.png">
+    </div>
+    <ul id="menu-list">
+      <!-- <li><a href="#">Search</a>&nbsp;&nbsp;<i class="fa fa-search" aria-hidden="true"></i></li> -->
+      <li><a href="./corporate.html">Swift Corporate</a>&nbsp;&nbsp;<i class="fa fa-globe" aria-hidden="true"></i></li>
+      <li><a href="./partner.html">Partner With Us</a>&nbsp;&nbsp;<i class="fa-solid fa-handshake-angle"></i></li>
+      <li><a href="#">Log In</a>&nbsp;&nbsp;<i class="fa fa-sign-in" aria-hidden="true"></i></li>
+      <li><a href="./cart.html">Cart</a>&nbsp;&nbsp;<i class="fa-solid fa-cart-shopping"></i><span class="spa">0</span></li>          
+    </ul>
+    <div class="menu-bars">
+      <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+    </div>
+  </nav>
+  <section class="speakers-section">
+    <h2 class="mind">What's on your Mind</h2>
+    <div id="selectedSpeaker" class="selected-speaker" hidden>
+      <p id="selectedSpeakerDescription" class="selected-speaker-description"></p>
+      <i id="closeSpeakerDetails" class="close-icon fas fa-times-circle" aria-label="Close Speaker Details"></i>
+    </div>
+    <div class="carousel-container">
+      <button class="carousel-control left" aria-label="Previous Speaker"><i
+              class="fa-solid fa-chevron-left"></i></button>
+      <div class="speakers-slider" id="speakersSlider"></div>
+      <button class="carousel-control right" aria-label="Next Speaker"><i
+              class="fa-solid fa-chevron-right"></i></button>
+    </div>
+  </section>
+
+  
+  <div class="restaurent">
+    <div class="search">
+      <div class="hyder">
+        <h2>Top restaurents chains in Hyderabad</h2>
+      </div>
+      <div class="tags">
+        <button class="delivery">Fast Delivery</button>
+        <button class="ratings">ratings 4++</button>
+        <button class="th300">Less than 300</button>
+        <button class="f400">300 - 400</button>
+        <input type="text" class="inp" placeholder="search.....">
+
+      </div>
+    </div>
+    <div class ="online-food">  
+          <!-- <div class="sub">
+            <img src="">
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+
+          </div> -->
+    </div>  
+  </div>
+  <footer>
+    <div id="foot">
+        <div class="fotty">
+          <div class="icon">
+            <img src="./main_icon-removebg-preview.png" alt="Icon">
+            <span>Swift</span>
+          </div>
+          <p class="copy">&copy;Swift Corporation</p>
+        </div>  
+        <div class="company">
+          <h2>Company</h2>
+          <div class="comp">
+            <p>About Us</p>
+            <p>Swift Corporate</p>
+            <p>Careers</p>
+            <p>Team</p>
+            <p>Swift One</p>
+            <p>Swift Instamart</p>
+            <p>Swift Dineout</p>
+            <p>Swift magic</p>
+            <p>Minis</p>
+          </div>
+        </div>
+        <div class="info">
+          <div class="contact">
+            <h2>Contact us</h2>
+            <div class="cont">
+              <p>Help & Support</p>
+              <p>Partner With Us</p>
+              <p>Ride With Us</p>
+            </div>
+          </div>
+          <div class="legal">
+            <h2>Legal</h2>
+            <div class="leg">
+              <p>Terms & Conditions</p>
+              <p>Cookie Policy</p>
+              <p>Privacy Policy</p>
+            </div>
+          </div>
+        </div>
+        <div class="available">
+          <h2>Available in:</h2>
+          <div class="avail">
+            <p>Bangolore</p>
+            <p>Gurugram</p>
+            <p>Hyderabad</p>
+            <p>Delhi</p>
+            <p>Mumbai</p>
+            <p>Pune</p>
+          </div>
+        </div>
+        <div class="spec">
+          <div class="life">
+            <h2>Life at Swift</h2>
+            <div class="lif">
+              <p>Explore With Swift</p>
+              <p>Swift News</p>
+              <p>Snackables</p>
+            </ul>
+          </div>
+          <div class="social">
+            <h2>Social links</h2>
+            <div class="links">
+              <i class="fa-brands fa-linkedin"></i><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-x-twitter"></i>
+            </div>
+          </div>
+        </div>
+    </div>   
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>
+

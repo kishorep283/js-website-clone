@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Details</title>
+    <link rel="stylesheet" href="./restaurant.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    
+</head>
+<body>
+  <nav class="header">
+    <div class="logo">
+      <h1>Swift</h1>
+      <a href="./index.html"><img src="./main_icon-removebg-preview.png"></a>
+    </div>
+    <ul id="menu-list">
+      <!-- <li><a href="#">Search</a>&nbsp;&nbsp;<i class="fa fa-search" aria-hidden="true"></i></li> -->
+      <li><a href="#">Offers</a>&nbsp;&nbsp;<i class="fa fa-globe" aria-hidden="true"></i></li>
+      <li><a href="#">Help</a>&nbsp;&nbsp;<i class="fa-solid fa-handshake-angle"></i></li>
+      <li><a href="#">Log In</a>&nbsp;&nbsp;<i class="fa fa-sign-in" aria-hidden="true"></i></li>
+      <li><a href="./cart.html">Cart&nbsp;&nbsp;<i class="fa-solid fa-cart-shopping"></i></a><span class="spa">0</span></li>          
+    </ul>
+    <div class="menu-bars">
+      <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+    </div>
+  </nav>
+    <div class="travis-head">
+      <h1 id="restaurant-name">Restaurant Name</h1>
+      <div id="restaurant-details">
+          <span id="ratings">Ratings</span>
+          <span id="price">Price</span>
+          <p id="cuisine">Cuisine</p>
+          <p id="location">Location</p>
+          <p id="time">Delivery Time</p>
+      </div>
+    </div>
+    <!-- <h2>Top Picks</h2>
+    <div id="top-picks">
+        <!-- Top picks images will go here -->
+    <!-- </div> --> -->
+
+    <h2>Recommended</h2>
+    <div id="recommended">
+        <!-- Recommended menu items will go here -->
+    </div>
+    <script src="restaurant.js"></script>
+</body>
+</html>
